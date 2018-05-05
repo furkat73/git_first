@@ -1,0 +1,401 @@
+body, html {
+    height: 100%;
+}
+
+.navbar {
+
+}
+.telefon {
+    color: white;
+    background-color: red;
+}
+
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+
+
+.form-wrapper {
+    background-color: #0e1d41;
+    width: 850px;
+    margin: 0 auto;
+    padding: 0px;
+    display: block;
+    position: relative;
+    top: -81px;
+}
+ 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form {
+    display: flex;
+    color: white;
+}
+.second {
+    display: flex;
+    color: white;
+    padding-top: 29px;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    margin: 58px 10px 0 0;
+}
+
+.input-box {
+    width: 100%;
+    height: 10px;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.input-box select {
+    display: block;
+    width: 100%;
+}
+.my-dropdown-box {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 500ms;
+    background-color: #0e1d41;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    top: 0px;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+}
+.checkbox-stuff {
+    width: 15%;
+}
+#check:checked + label + .my-dropdown-box {
+    max-height: 60px;
+}
+label {
+    color: white;
+}
+
+/*phone*/
+@media (max-width: 768px) {
+    .form {
+        flex-direction: column;
+    }
+    .second {
+        flex-direction: column;
+
+    }
+
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 992px) {
+    .form {
+        flex-direction: column;
+    }
+    .second {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .second  .input-box {
+        width: 50%;
+    }
+}
+
+.text-featured {
+    text-align: center;
+    padding: 0 auto;
+ }
+ .text_featured {
+    ddisplay: block;
+    position: relative;
+    text-align: center;
+    top: -28px;
+    
+ }
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*--featured--*/
+.featured {
+   display: block;
+   align-items: center;
+}
+.house {
+    background-color: #eaeaea;
+    margin: 0 auto;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #ec750f;
+    border-color: #6c757d;
+    position: relative;
+    top: -165px;
+    left: -89px;
+}
+.featured-row {
+    text-align: center;
+}
+
+.digit {
+background-image: url(images/bedroom.png);
+background-repeat: no-repeat;
+}
+.a1 {
+background-image: url(images/patio.png);
+background-repeat: no-repeat;
+}
+.a2 {
+background-image: url(images/shower.png);
+background-repeat: no-repeat;
+}
+.a3 {
+background-image: url(images/garage.png);
+background-repeat: no-repeat;
+}
+.a4 {
+background-image: url(images/area.png);
+background-repeat: no-repeat;
+padding-left: 30px;
+}
+.orang_button {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 14px;
+   }
+ .hottub, .Swiming, .Garden, .Patio, .Wood {
+    background-color: #ff6a00;
+    color: white;
+    margin: 10px 18px 0 0;
+    padding-right: 10px;
+   }
+
+.sale-row {
+display: flex;
+background-color: #0e1d41;
+background-image: url(images/tag.png);
+background-repeat: no-repeat;
+background-size: 40px;
+background-position: left;
+padding: 16px 0 40px 40px;
+margin: 5px;
+color: white; 
+height: 100px;
+}
+
+.carouseldown {
+    background-image: url(images/testimonials_background.jpg);
+    bacjground-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+.carouseldown .text_carousel {
+    text-align: center;
+    color: white;
+    display: block;
+    position: relative;
+    top: 100px;
+    width: 616px;
+    margin: 0 auto;
+}
+
+.carouseldown h3 p {
+    bottom: 100px;
+    
+    
+}
+.carouseldown .carousel-inner img {
+    display: block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 1000px;
+
+}
+.carouseldown .carousel-inner {
+    position: relative;
+    width: 100%;
+    top: 190px;
+    text-align: center;
+}
+.carouseldown.carousel-caption {
+    display: block;
+    position: relative;
+    top: -19px;
+    width: 616px;
+    left: 240px;
+}
+.carouseldown .carousel-caption h3 {
+ color:red;
+ display: block;
+ position: relative;
+ top: 90px;
+
+}
+.carouseldown .carousel-caption p {
+ color: white;
+ display: block;
+ position: relative;
+ top: 26px;
+
+}
+.carouseldown .carousel-indicators {
+display: flex;
+top: 360px;
+}
+.carouseldown .images {
+    display: block;
+    position: relative;
+    top:-2px;
+    height: 125px;
+    align-items: center;
+    left: 500px;
+}
+
+
+
+/*--see--*/
+
+.text_see {
+    display: block;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.a01 {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    color: white;
+    bottom: 6px;
+    background-color: gray;
+    text-align: center;
+    }
+    
+    .see_img {
+    display: block;
+    position: relative;
+    color: white;
+    align-items: center;
+    background-color: lightgray;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    border: 15px solid #20b2aa75;
+    width: 143px;
+    height: 143px;
+    }
+
+.text_d {
+    display: block;
+    width: 300px;
+}
+
+.cities {
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+}
+.cit {
+    display: block;
+    top:100px;
+    bottom:50px;
+    text-align: center;
+
+}
+.cities .carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #191818fc no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.do {
+   display: block;
+    background-color: lightgray;
+    height: 200px;
+    align-items: center;
+    vertical-align: center;
+
+}
+.do .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 99px;
+}
+.left {
+    position: relative;  
+    color: #0f0;
+    font-size: 24px;
+}
+
+.left span {
+    height: 60%;
+    position: absolute;
+    color: #f00;
+    overflow: hidden;  
+}
+.sub_img {
+    display: block;
+    position: relative;
+    bottom: 211px;
+    background-color: #0e1d41;
+    width: 30px;
+}
+
+.sub_img1 {
+   
+   background-image: url(images/weekly.jpg); 
+   background-repeat: no-repeat;
+   display: block;
+   position: relative;
+   bottom: 23px;
+   width: 500px;
+   height: 150px;
+
+}
+
+.ocion {
+    background-color: #0e1d41;
+    padding: 50px 0 50px 0;
+    color: white;
+}
+.target {
+    display: block;
+    position: relative;
+    left: 30px;
+    background-color: #0e1d41;
+    bottom: 165px;
+    width: 150px;
+    height: 30px;
+}
+
+.footer {
+    padding-top: 50px;
+    background-color: #05102b;
+    height: 500px;
+    color: white;
+}
