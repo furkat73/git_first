@@ -322,6 +322,30 @@ top: 360px;
     text-align: center;
 
 }
+.owl-carousel {
+  padding: 0 20px;
+}
+.owl-nav span {
+  background-color: cyan;
+  padding: 10px;
+}
+.owl-prev {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.owl-next {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.my-item {
+  padding: 0 10px;
+}
+
+/*
 .cities .carousel-control-next-icon, .carousel-control-prev-icon {
     display: inline-block;
     width: 20px;
@@ -329,6 +353,7 @@ top: 360px;
     background: #191818fc no-repeat center center;
     background-size: 100% 100%;
 }
+*/
 
 .do {
    display: block;
@@ -399,3 +424,56 @@ top: 360px;
     height: 500px;
     color: white;
 }
+.icon {
+    display: block;
+    position: relative;
+    align-items: center;
+    left: 42px;
+}
+.img_footer {
+ display: block;
+ position: relative;
+ align-items: center;
+ left: 42px;  
+}
+.text2 {
+    padding: 0px 0px 10px 0;
+}
+
+.form-control-plaintext {
+    background-color: #2d2e4e;
+    border: 1px solid white;
+    border-radius: .25rem;
+}
+.form-control {
+    background-color: #2d2e4e;
+}
+.text3 {
+    padding-bottom: 10px;
+}
+
+.m1 {
+background-image: url(images/placeholder.png);
+background-size: 20px;
+background-repeat: no-repeat;
+padding-left: 35px;
+}
+.m2 {
+background-image: url(images/phone-call.png);
+background-size: 20px;
+background-repeat: no-repeat;
+padding-left: 35px;
+}
+.m3 {
+background-image: url(images/message.png);
+background-size: 20px;
+background-repeat: no-repeat;
+padding-left: 35px;
+}
+.m4 {
+background-image: url(images/tag.png);
+background-size: 20px;
+background-repeat: no-repeat;
+padding-left: 35px;
+}
+
